@@ -63,22 +63,20 @@ public class HelloController {
 
     @FXML
     private TextArea textArea;
-    Connect c = new Connect();
     static int counter;
     private static Set<Integer> usedNumbers = new HashSet<>();
     private static Random random = new Random();
 
     @FXML
     void addButtonAction(ActionEvent event) {
-        c.writeToDb(textArea.getText());
+
         textArea.setText("");
-        counter = c.counterDB();
+
     }
 
     @FXML
     void allbuttonAction(ActionEvent event) {// show all que
-        textArea.setText(c.selectAllDb());
-        counter = c.counterDB();
+
     }
 
     @FXML
@@ -89,13 +87,11 @@ public class HelloController {
     @FXML
     void nextButtonAction(ActionEvent event) {
         String i = String.valueOf(randomizer(counter));
-        labelText.setText(c.selectTest(i));
-        System.out.println(c.selectTest(i));
+
     }
 
     @FXML
     void searchButtonAction(ActionEvent event) {
-        textArea.setText(c.selectID(idTextField.getText()));
     }
 
     @FXML
@@ -113,10 +109,9 @@ public class HelloController {
 
     @FXML
     void initialize() {
-        counter = c.counterDB();
         System.out.println(counter);
-        String i = String.valueOf(randomizer(counter));
-        labelText.setText(c.selectTest(i));
+//        String i = String.valueOf(randomizer(counter));
+//        labelText.setText(c.selectTest(i));
     }
 
 
