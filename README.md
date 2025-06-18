@@ -4,7 +4,8 @@
 
 ![image](https://github.com/user-attachments/assets/2c0b92d1-2234-4e14-ab43-9e8e4f230b6c)
 
-![image](https://github.com/user-attachments/assets/71e6c0fa-54ad-4eb4-991c-7691d43d85b5)
+![image](https://github.com/user-attachments/assets/b27a4636-4b01-459b-a8df-7f3fac800c6f)
+
 
 
 ## 📚 Основні можливості
